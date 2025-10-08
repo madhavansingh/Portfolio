@@ -33,6 +33,8 @@ Check out the live demo here:
 
 [![Technologies Used](https://skillicons.dev/icons?i=ts,react,threejs,tailwind,vercel)](https://skillicons.dev)
 
+![Portfolio Screenshot](.github/README_ASSETS/about-portfolio.png)
+
 ## 💎 Acknowledgements
 
 Special thanks to the following technologies and resources that made this project possible:
