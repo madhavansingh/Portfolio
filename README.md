@@ -10,6 +10,8 @@
 [![Top Language](https://img.shields.io/github/languages/top/madhavansingh/Portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
 [![Contributors](https://img.shields.io/github/contributors/madhavansingh/Portfolio?style=flat&color=orange&label=Contributors)](https://github.com/madhavansingh/Portfolio/graphs/contributors)
 
+![Portfolio Screenshot](.github/README_ASSETS/madhavan-portfolio.png)
+
 
 ## 🌐 Live Demo
 
