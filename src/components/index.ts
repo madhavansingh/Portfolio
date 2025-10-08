@@ -32,14 +32,14 @@ export const navLinks: TNavLink[] = [
   { id: "contact", title: "Contact" },
 ];
 
-export const services: TService[] = [
+const services: TService[] = [
   { title: "Web Developer", icon: web },
   { title: "Problem Solver", icon: mobile },
   { title: "Full Stack Developer", icon: backend },
   { title: "B.Tech Student", icon: creator },
 ];
 
-export const technologies: TTechnology[] = [
+const technologies: TTechnology[] = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
@@ -55,7 +55,7 @@ export const technologies: TTechnology[] = [
   { name: "Docker", icon: docker },
 ];
 
-export const experiences: TExperience[] = [
+const experiences: TExperience[] = [
   {
     title: "Frontend Developer | Lakecity Hackathon",
     companyName: "Lakecity Hackathon 2025",
@@ -89,12 +89,24 @@ export const experiences: TExperience[] = [
     points: [
       "Developed KODR AI, a next-gen AI-powered assistant aimed at solving real-world coding and civic challenges.",
       "Implemented modular architecture and prompt-based logic using modern web technologies.",
-      "Achieved 5th position in the hackathon with a working demo.",
+      "Collaborated with a cross-functional team to present a working demo and documentation.",
+    ],
+  },
+  {
+    title: "AI/ML Developer | NASA Space Apps Challenge – NovaSync",
+    companyName: "NASA Space Apps Challenge 2025",
+    icon: threejs,
+    iconBg: "#E6DEDD",
+    date: "October 2025",
+    points: [
+      "Built NovaSync: 'A Space Biology Knowledge Engine' blending AI/ML with NASA’s bioscience datasets.",
+      "Developed a model to help scientists uncover hidden patterns in complex space biology data.",
+      "Contributed to AI workflow design, research insights, and the final pitch presentation.",
     ],
   },
 ];
 
-export const beyondCode = [
+const beyondCode = [
   {
     title: "🎨 Designing UI/UX",
     description: "Exploring Figma and improving my sense of design through practical projects.",
@@ -105,15 +117,15 @@ export const beyondCode = [
   },
   {
     title: "⚙️ Experimenting with AI",
-    description: "Building small prototypes involving LLMs, digital twins, and civic-tech tools.",
+    description: "Building small prototypes involving LLMs, digital twins and civic tech tools.",
   },
   {
-    title: "🎧 Hobbies",
-    description: "I enjoy lo-fi music, sketching UI layouts, and tinkering with side projects.",
+    title: "🎸 Hobbies",
+    description: "I enjoy playing guitar, sketching UI layouts and tinkering with side projects.",
   },
 ];
 
-export const projects: TProject[] = [
+const projects: TProject[] = [
   {
     name: "Orvian",
     description:
@@ -125,12 +137,11 @@ export const projects: TProject[] = [
     ],
     image: threejs,
     sourceCodeLink: "https://github.com/madhavansingh/Orvian.git",
-    demoLink: "https://orvian-3d.vercel.app/",
   },
   {
     name: "Smart Rake Planner",
     description:
-      "An AI-based Decision Support System for optimizing rake formation strategies at SAIL, with real-time dashboards and ML-assisted recommendations.",
+      "An AI based Decision Support System for optimizing rake formation strategies at SAIL, with real-time dashboards and ML-assisted recommendations.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "nodejs", color: "green-text-gradient" },
@@ -138,12 +149,11 @@ export const projects: TProject[] = [
     ],
     image: backend,
     sourceCodeLink: "https://github.com/madhavansingh/smart-rake-planner.git",
-    demoLink: "https://smart-rake-planner.vercel.app/",
   },
   {
     name: "KODR AI",
     description:
-      "Developed for Samadhan 2.0 Hackathon — a platform to explain code line by line using AI assistants.",
+      "Developed for Samadhan 2.0 Hackathon, a platform to explain code line by line using AI assistants.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "nodejs", color: "green-text-gradient" },
@@ -151,7 +161,8 @@ export const projects: TProject[] = [
     ],
     image: mobile,
     sourceCodeLink: "https://github.com/madhavansingh/kodr-ai.git",
-    demoLink: "https://kodr-ai.vercel.app/",
   },
 ];
+
+// Export everything
 export { services, technologies, experiences, beyondCode, projects };
