@@ -55,15 +55,15 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Problem Solver",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "B.Tech Student",
     icon: creator,
   },
 ];
@@ -125,150 +125,107 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer | Lakecity Hackathon",
+    companyName: "Lakecity Hackathon 2025",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in the Lakecity Hackathon, developing innovative solutions using React and Node.js.",
+      "Collaborated with team members on frontend UI and component design.",
+      "Focused on rapid prototyping and effective problem-solving within the challenge timeline.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer | mosAIc – AI in Action (The Product Folks)",
+    companyName: "mosAIc | AI Hackathon by The Product Folks",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a platform featuring multiple AI assistants for diverse creative and professional tasks.",
+      "Integrated different AI tools into a single unified experience.",
+      "Designed clean, responsive UI using React and Tailwind CSS.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "AI Developer | Samadhan 2.0 Hackathon – KODR AI",
+    companyName: "Samadhan 2.0 Hackathon",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed KODR AI, a next-gen AI-powered assistant aimed at solving real-world coding and civic challenges.",
+      "Implemented modular architecture and prompt-based logic using modern web technologies.",
+      "Collaborated with a cross-functional team to present a working demo and documentation.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "AI/ML Developer | NASA Space Apps Challenge – NovaSync",
+    companyName: "NASA Space Apps Challenge 2025",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "October 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built NovaSync: 'A Space Biology Knowledge Engine' blending AI/ML with NASA’s bioscience datasets.",
+      "Developed a model to help scientists uncover hidden patterns in complex space biology data.",
+      "Contributed to AI workflow design, research insights, and the final pitch presentation.",
     ],
   },
 ];
 
-const testimonials: TTestimonial[] = [
+const beyondCode = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "🎨 Designing UI/UX",
+    description: "Exploring Figma and improving my sense of design through practical projects.",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "📚 Learning Full Stack",
+    description: "Currently deepening my understanding of React, Node.js, and databases.",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "⚙️ Experimenting with AI",
+    description: "Building small prototypes involving LLMs, digital twins, and civic-tech tools.",
+  },
+  {
+    title: "🎧 Hobbies",
+    description: "I enjoy lo-fi music, sketching UI layouts, and tinkering with side projects.",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Orvian",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A 3D visual collaboration platform inspired by Spline, allowing users to create and interact with real-time 3D scenes collaboratively.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "threejs", color: "blue-text-gradient" },
+      { name: "react", color: "green-text-gradient" },
+      { name: "webgl", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: threejs,
+    sourceCodeLink: "https://github.com/madhavansingh/Orvian.git",
   },
   {
-    name: "Job IT",
+    name: "Smart Rake Planner",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An AI-based Decision Support System for optimizing rake formation strategies at SAIL, with real-time dashboards and ML-assisted recommendations.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "ai", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: backend,
+    sourceCodeLink: "https://github.com/madhavansingh/smart-rake-planner.git",
   },
   {
-    name: "Trip Guide",
+    name: "NovaSync",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed for NASA Space Apps Challenge 2025 — a platform to sync satellite and ground station data for visualization and monitoring.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nasa-api", color: "green-text-gradient" },
+      { name: "spaceapps", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: mobile,
+    sourceCodeLink: "https://github.com/madhavansingh/Nasa.git",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, beyondCode, projects };
