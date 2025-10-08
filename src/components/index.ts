@@ -137,7 +137,6 @@ const projects: TProject[] = [
     ],
     image: threejs,
     sourceCodeLink: "https://github.com/madhavansingh/Orvian.git",
-    demoLink: "https://orvian-3d.vercel.app/",
   },
   {
     name: "Smart Rake Planner",
@@ -150,7 +149,6 @@ const projects: TProject[] = [
     ],
     image: backend,
     sourceCodeLink: "https://github.com/madhavansingh/smart-rake-planner.git",
-    demoLink: "https://smart-rake-planner.vercel.app/",
   },
   {
     name: "KODR AI",
@@ -163,7 +161,6 @@ const projects: TProject[] = [
     ],
     image: mobile,
     sourceCodeLink: "https://github.com/madhavansingh/kodr-ai.git",
-    demoLink: "https://kodr-ai.vercel.app/",
   },
 ];
 
