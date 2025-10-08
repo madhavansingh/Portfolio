@@ -87,21 +87,9 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "September 2025",
     points: [
-      "Developed KODR AI, a next-gen AI-powered assistant aimed at solving real-world coding and civic challenges.",
-      "Implemented modular architecture and prompt-based logic using modern web technologies.",
-      "Collaborated with a cross-functional team to present a working demo and documentation.",
-    ],
-  },
-  {
-    title: "AI/ML Developer | NASA Space Apps Challenge – NovaSync",
-    companyName: "NASA Space Apps Challenge 2025",
-    icon: threejs,
-    iconBg: "#E6DEDD",
-    date: "October 2025",
-    points: [
-      "Built NovaSync: 'A Space Biology Knowledge Engine' blending AI/ML with NASA’s bioscience datasets.",
-      "Developed a model to help scientists uncover hidden patterns in complex space biology data.",
-      "Contributed to AI workflow design, research insights, and the final pitch presentation.",
+      "Developed KODR AI, an AI-powered platform that explains code line by line.",
+      "Secured 5th position at Samadhan 2.0 Hackathon.",
+      "Implemented modular architecture and collaborative workflows.",
     ],
   },
 ];
@@ -119,10 +107,6 @@ const beyondCode = [
     title: "⚙️ Experimenting with AI",
     description: "Building small prototypes involving LLMs, digital twins, and civic-tech tools.",
   },
-  {
-    title: "🎧 Hobbies",
-    description: "I enjoy lo-fi music, sketching UI layouts, and tinkering with side projects.",
-  },
 ];
 
 const projects: TProject[] = [
@@ -137,6 +121,7 @@ const projects: TProject[] = [
     ],
     image: threejs,
     sourceCodeLink: "https://github.com/madhavansingh/Orvian.git",
+    demoLink: "https://orvian-3d.vercel.app/",
   },
   {
     name: "Smart Rake Planner",
@@ -149,18 +134,20 @@ const projects: TProject[] = [
     ],
     image: backend,
     sourceCodeLink: "https://github.com/madhavansingh/smart-rake-planner.git",
+    demoLink: "https://smart-rake-planner.vercel.app/",
   },
   {
-    name: "NovaSync",
+    name: "KODR AI",
     description:
-      "Developed for NASA Space Apps Challenge 2025 — a platform to sync satellite and ground station data for visualization and monitoring.",
+      "Developed for Samadhan 2.0 Hackathon — an AI platform that explains code line by line and helps developers understand logic.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
-      { name: "nasa-api", color: "green-text-gradient" },
-      { name: "spaceapps", color: "pink-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "ai", color: "pink-text-gradient" },
     ],
     image: mobile,
-    sourceCodeLink: "https://github.com/madhavansingh/Nasa.git",
+    sourceCodeLink: "https://github.com/madhavansingh/kodr-ai.git",
+    demoLink: "https://kodr-ai.vercel.app/",
   },
 ];
 
