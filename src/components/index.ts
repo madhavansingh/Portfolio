@@ -32,14 +32,14 @@ export const navLinks: TNavLink[] = [
   { id: "contact", title: "Contact" },
 ];
 
-const services: TService[] = [
+export const services: TService[] = [
   { title: "Web Developer", icon: web },
   { title: "Problem Solver", icon: mobile },
   { title: "Full Stack Developer", icon: backend },
   { title: "B.Tech Student", icon: creator },
 ];
 
-const technologies: TTechnology[] = [
+export const technologies: TTechnology[] = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
@@ -55,7 +55,7 @@ const technologies: TTechnology[] = [
   { name: "Docker", icon: docker },
 ];
 
-const experiences: TExperience[] = [
+export const experiences: TExperience[] = [
   {
     title: "Frontend Developer | Lakecity Hackathon",
     companyName: "Lakecity Hackathon 2025",
@@ -87,14 +87,14 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "September 2025",
     points: [
-      "Developed KODR AI, an AI-powered platform that explains code line by line.",
-      "Secured 5th position at Samadhan 2.0 Hackathon.",
-      "Implemented modular architecture and collaborative workflows.",
+      "Developed KODR AI, a next-gen AI-powered assistant aimed at solving real-world coding and civic challenges.",
+      "Implemented modular architecture and prompt-based logic using modern web technologies.",
+      "Achieved 5th position in the hackathon with a working demo.",
     ],
   },
 ];
 
-const beyondCode = [
+export const beyondCode = [
   {
     title: "🎨 Designing UI/UX",
     description: "Exploring Figma and improving my sense of design through practical projects.",
@@ -113,7 +113,7 @@ const beyondCode = [
   },
 ];
 
-const projects: TProject[] = [
+export const projects: TProject[] = [
   {
     name: "Orvian",
     description:
@@ -143,7 +143,7 @@ const projects: TProject[] = [
   {
     name: "KODR AI",
     description:
-      "Developed for Samadhan 2.0 Hackathon — an AI platform that explains code line by line and helps developers understand logic.",
+      "Developed for Samadhan 2.0 Hackathon — a platform to explain code line by line using AI assistants.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "nodejs", color: "green-text-gradient" },
@@ -154,6 +154,4 @@ const projects: TProject[] = [
     demoLink: "https://kodr-ai.vercel.app/",
   },
 ];
-
-// Export everything
 export { services, technologies, experiences, beyondCode, projects };
