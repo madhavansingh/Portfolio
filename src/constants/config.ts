@@ -40,13 +40,14 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Aspiring Full Stack Developer",
+    fullName: "Madhavan Singh Parihar",
+    email: "madhavansingh32@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Madhavan Singh Parihar",
+    p: ["I am a college student passionate about software development,",
+      "learning full-stack web technologies, and experimenting with AI-driven projects."],
   },
   contact: {
     p: "Get in touch",
@@ -67,28 +68,23 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm Madhavan Singh Parihar, a college student exploring the world of software development.
+      I have hands-on experience with JavaScript, TypeScript, React, Node.js, and Three.js.
+      I enjoy learning new technologies, building web applications, experimenting with AI, and creating interactive experiences.
+      I aim to collaborate on projects that challenge me and help me grow as a developer.`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "Beyond Coding",
+      h2: "My Interests & Skills",
     },
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `Here are some of my favorite projects where I’ve built, experimented, and learned. Each one reflects my journey as a developer and my passion for creating practical, user-friendly solutions`,
     },
   },
 };
