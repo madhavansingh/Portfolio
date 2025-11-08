@@ -13,16 +13,16 @@
 ![Portfolio Screenshot](.github/README_ASSETS/madhavan-portfolio.png)
 
 
-## 🌐 Live Demo
+## Live Demo
 
 Check out the live demo here :  
 [Portfolio](https://madhavannn-portfolio.vercel.app)
 
-## 📝 Description
+## Description
 
 **Madhavan's Portfolio** is a cutting edge, interactive 3D portfolio showcasing projects and skills with stunning Three.js animations, smooth transitions and a fully responsive design that looks perfect on any device.
 
-## ✨ Technologies Used
+## Technologies Used
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React.js](https://reactjs.org/)
